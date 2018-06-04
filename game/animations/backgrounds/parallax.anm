@@ -1,0 +1,30 @@
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Animation name="1" imagePath="agrabah_market_parallax.png" width="553" height="285">
+    <sprite x="0" y="215" w="552" h="69" oX="0" oY="215" oW="526" oH="552" />
+  </Animation>
+  <Animation name="2" imagePath="agrabah_market_parallax.png" width="553" height="285">
+    <sprite x="0" y="184" w="552" h="26" oX="0" oY="184" oW="473" oH="552" />
+  </Animation>
+  <Animation name="3" imagePath="agrabah_market_parallax.png" width="553" height="285">
+    <sprite x="0" y="161" w="552" h="18" oX="0" oY="161" oW="446" oH="552" />
+  </Animation>
+  <Animation name="4" imagePath="agrabah_market_parallax.png" width="553" height="285">
+    <sprite x="0" y="147" w="552" h="9" oX="0" oY="147" oW="428" oH="552" />
+  </Animation>
+  <Animation name="5" imagePath="agrabah_market_parallax.png" width="553" height="285">
+    <sprite x="0" y="125" w="552" h="17" oX="0" oY="125" oW="410" oH="552" />
+  </Animation>
+  <Animation name="6" imagePath="agrabah_market_parallax.png" width="553" height="285">
+    <sprite x="0" y="93" w="552" h="26" oX="0" oY="93" oW="382" oH="552" />
+  </Animation>
+  <Animation name="7" imagePath="agrabah_market_parallax.png" width="553" height="285">
+    <sprite x="0" y="53" w="552" h="35" oX="0" oY="53" oW="347" oH="552" />
+  </Animation>
+  <Animation name="8" imagePath="agrabah_market_parallax.png" width="553" height="285">
+    <sprite x="0" y="22" w="552" h="26" oX="0" oY="22" oW="311" oH="552" />
+  </Animation>
+  <Animation name="9" imagePath="agrabah_market_parallax.png" width="553" height="285">
+    <sprite x="0" y="0" w="552" h="17" oX="0" oY="0" oW="285" oH="552" />
+  </Animation>
+</Animations>

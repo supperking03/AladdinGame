@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Animations>
+  <Animation name="thin_guard_idle" imagePath="guards.png">
+    <sprite x="446" y="175" w="43" h="57" offsetX="0" offsetY="5" />
+  </Animation>
+  <Animation name="thin_guard_run" imagePath="guards.png" width="498" height="1053" interval="0.07" isLoop="true">
+    <sprite x="451" y="9" w="44" h="66" offsetX="0" offsetY="8.5" />
+    <sprite x="400" y="10" w="44" h="65" offsetX="0" offsetY="7.5" />
+    <sprite x="343" y="11" w="45" h="64" offsetX="0" offsetY="7.5" />
+    <sprite x="289" y="11" w="44" h="64" offsetX="0" offsetY="7.5" />
+    <sprite x="247" y="10" w="36" h="65" offsetX="0" offsetY="7.5" />
+    <sprite x="196" y="9" w="42" h="66" offsetX="0" offsetY="8.5" />
+    <sprite x="140" y="9" w="49" h="66" offsetX="0" offsetY="8.5" />
+    <sprite x="99" y="11" w="35" h="64" offsetX="0" offsetY="7.5" />
+  </Animation>
+  <Animation name="thin_guard_attack" imagePath="guards.png" width="498" height="1053" interval="0.07" isLoop="false">
+    <sprite x="452" y="82" w="36" h="73" offsetX="0" offsetY="12" />
+    <sprite x="396" y="96" w="48" h="59" offsetX="0" offsetY="5" />
+    <sprite x="297" y="98" w="91" h="57" offsetX="29" offsetY="4" />
+    <sprite x="209" y="97" w="85" h="58" offsetX="26" offsetY="4.5" />
+    <sprite x="129" y="96" w="76" h="59" offsetX="19" offsetY="5" />
+    <sprite x="75" y="96" w="40" h="59" offsetX="0" offsetY="5" />
+  </Animation>
+  <Animation name="thin_guard_hit" imagePath="guards.png" width="498" height="1053" interval="0.05" isLoop="false">
+    <sprite x="399" y="185" w="39" h="47" offsetX="0" offsetY="0" />
+    <sprite x="345" y="160" w="38" h="72" offsetX="-1.5" offsetY="12.5" />
+    <sprite x="296" y="165" w="40" h="67" offsetX="-7.5" offsetY="9.5" />
+    <sprite x="242" y="171" w="45" h="61" offsetX="0" offsetY="7" />
+    <sprite x="188" y="162" w="41" h="70" offsetX="5" offsetY="11" />
+    <sprite x="133" y="184" w="46" h="48" offsetX="2.5" offsetY="0.5" />
+    <sprite x="80" y="185" w="39" h="47" offsetX="1" offsetY="0" />
+    <sprite x="20" y="166" w="44" h="66" offsetX="-1.5" offsetY="9" />
+    <sprite x="446" y="175" w="43" h="57" offsetX="3" offsetY="5" />
+  </Animation>
+  <Animation name="fat_guard_idle" imagePath="guards.png" width="498" height="1053">
+    <sprite x="437" y="378" w="54" h="51" offsetX="-5" offsetY="1" />
+  </Animation>
+  <Animation name="fat_guard_run" imagePath="guards.png" width="498" height="1053" interval="0.07" isLoop="true">
+    <sprite x="449" y="255" w="46" h="51" offsetX="0" offsetY="1" />
+    <sprite x="391" y="253" w="51" h="53" offsetX="0" offsetY="2" />
+    <sprite x="331" y="252" w="55" h="54" offsetX="0" offsetY="2" />
+    <sprite x="274" y="253" w="50" h="53" offsetX="0" offsetY="1.5" />
+    <sprite x="219" y="255" w="48" h="51" offsetX="0" offsetY="1" />
+    <sprite x="172" y="254" w="41" h="52" offsetX="0" offsetY="1.5" />
+    <sprite x="120" y="251" w="43" h="55" offsetX="0" offsetY="2.5" />
+    <sprite x="69" y="253" w="45" h="53" offsetX="0" offsetY="2" />
+  </Animation>
+  <Animation name="fat_guard_provoke" imagePath="guards.png" width="498" height="1053" interval="0.1" isLoop="false">
+    <sprite x="405" y="316" w="36" h="53" offsetX="-7.5" offsetY="1.5" />
+    <sprite x="346" y="317" w="53" h="52" offsetX="0" offsetY="2" />
+    <sprite x="283" y="317" w="57" h="52" offsetX="1.5" offsetY="1" />
+    <sprite x="228" y="317" w="48" h="52" offsetX="-2.5" offsetY="1.5" />
+    <sprite x="176" y="317" w="43" h="52" offsetX="-5" offsetY="1" />
+    <sprite x="228" y="317" w="48" h="52" offsetX="-2.5" offsetY="1.5" />
+    <sprite x="346" y="317" w="53" h="52" offsetX="0" offsetY="2" />
+    <sprite x="283" y="317" w="57" h="52" offsetX="1.5" offsetY="1" />
+    <sprite x="228" y="317" w="48" h="52" offsetX="-2.5" offsetY="1.5" />
+    <sprite x="176" y="317" w="43" h="52" offsetX="-5" offsetY="1" />
+    <sprite x="228" y="317" w="48" h="52" offsetX="-2.5" offsetY="1.5" />
+    <sprite x="346" y="317" w="53" h="52" offsetX="0" offsetY="2" />
+    <sprite x="283" y="317" w="57" h="52" offsetX="1.5" offsetY="1" />
+    <sprite x="228" y="317" w="48" h="52" offsetX="-2.5" offsetY="1.5" />
+    <sprite x="176" y="317" w="43" h="52" offsetX="-5" offsetY="1" />
+  </Animation>
+  <Animation name="fat_guard_attack_1" imagePath="guards.png" width="498" height="1053" interval="0.07" isLoop="false">
+    <sprite x="437" y="378" w="54" h="51" offsetX="-5" offsetY="1" />
+    <sprite x="366" y="386" w="66" h="43" offsetX="0" offsetY="-3" />
+    <sprite x="288" y="388" w="69" h="41" offsetX="0" offsetY="-3.5" />
+    <sprite x="207" y="387" w="74" h="42" offsetX="1.5" offsetY="-3" />
+    <sprite x="113" y="385" w="87" h="44" offsetX="8" offsetY="-2.5" />
+    <sprite x="8" y="384" w="94" h="45" offsetX="10" offsetY="-2.5" />
+  </Animation>
+  <Animation name="fat_guard_attack_2" imagePath="guards.png" width="498" height="1053" interval="0.07" isLoop="false">
+    <sprite x="449" y="447" w="42" h="59" offsetX="1" offsetY="5" />
+    <sprite x="394" y="434" w="42" h="72" offsetX="0" offsetY="11.5" />
+    <sprite x="330" y="441" w="51" h="65" offsetX="-1.5" offsetY="8" />
+    <sprite x="206" y="451" w="113" h="55" offsetX="33.5" offsetY="3" />
+    <sprite x="107" y="434" w="88" h="72" offsetX="24" offsetY="11.5" />
+  </Animation>
+  <Animation name="fat_guard_hit" imagePath="guards.png" width="498" height="1053" interval="0.05" isLoop="false">
+    <sprite x="438" y="538" w="53" h="47" offsetX="-1.5" offsetY="-1" />
+    <sprite x="364" y="515" w="62" h="70" offsetX="-12" offsetY="10" />
+    <sprite x="295" y="529" w="64" h="56" offsetX="-12" offsetY="2.5" />
+    <sprite x="217" y="520" w="70" h="73" offsetX="-12" offsetY="4" />
+    <sprite x="134" y="522" w="73" h="63" offsetX="-11.5" offsetY="7.5" />
+    <sprite x="50" y="530" w="65" h="55" offsetX="-9.5" offsetY="3.5" />
+    <sprite x="437" y="378" w="54" h="51" offsetX="1" offsetY="2" />
+  </Animation>
+  <Animation name="throwable_knife" imagePath="guards.png" interval="0.07" isLoop="true">
+    <sprite x="384" y="678" w="11" h="24" oX="384" oY="678" oW="318" oH="203" />
+    <sprite x="345" y="680" w="26" h="16" oX="345" oY="680" oW="318" oH="203" />
+    <sprite x="325" y="675" w="13" h="25" oX="325" oY="675" oW="318" oH="203" />
+    <sprite x="289" y="682" w="27" h="19" oX="289" oY="682" oW="318" oH="203" />
+    <sprite x="251" y="677" w="27" h="26" oX="251" oY="677" oW="318" oH="203" />
+    <sprite x="218" y="675" w="25" h="22" oX="218" oY="675" oW="318" oH="203" />
+    <sprite x="195" y="678" w="13" h="21" oX="195" oY="678" oW="318" oH="203" />
+  </Animation>
+  <Animation name="adorable_guard_throw" imagePath="guards.png" width="498" height="1053" interval="0.09" isLoop="false">
+    <sprite x="411" y="842" w="54" h="57" offsetX="9" offsetY="4" />
+    <sprite x="364" y="844" w="36" h="55" offsetX="0" offsetY="3" />
+    <sprite x="292" y="850" w="61" h="49" offsetX="-12" offsetY="0" />
+    <sprite x="240" y="856" w="46" h="43" offsetX="-5.5" offsetY="-2.5" />
+    <sprite x="200" y="848" w="32" h="51" offsetX="0" offsetY="1" />
+  </Animation>
+  <Animation name="adorable_guard_run" imagePath="guards.png" width="498" height="1053" interval="0.07" isLoop="true">
+    <sprite x="423" y="784" w="37" h="51" offsetX="0" offsetY="0" />
+    <sprite x="381" y="786" w="34" h="49" offsetX="0" offsetY="0" />
+    <sprite x="338" y="789" w="37" h="46" offsetX="0" offsetY="-1.5" />
+    <sprite x="296" y="781" w="39" h="54" offsetX="0" offsetY="2.5" />
+    <sprite x="247" y="776" w="43" h="59" offsetX="0" offsetY="4.5" />
+    <sprite x="197" y="781" w="38" h="54" offsetX="0" offsetY="2.5" />
+    <sprite x="151" y="788" w="37" h="47" offsetX="0" offsetY="-1" />
+    <sprite x="112" y="785" w="34" h="50" offsetX="0" offsetY="0" />
+  </Animation>
+  <Animation name="adorable_guard_shame" imagePath="guards.png" width="498" height="1053" interval="0.07" isLoop="false">
+    <sprite x="409" y="919" w="54" h="51" oX="409" oY="919" oW="569" oH="479" />
+    <sprite x="350" y="920" w="54" h="50" oX="350" oY="920" oW="569" oH="479" />
+    <sprite x="289" y="921" w="55" h="49" oX="289" oY="921" oW="569" oH="479" />
+    <sprite x="228" y="921" w="55" h="49" oX="228" oY="921" oW="569" oH="479" />
+    <sprite x="158" y="923" w="64" h="47" oX="158" oY="923" oW="569" oH="479" />
+    <sprite x="78" y="906" w="69" h="64" oX="78" oY="906" oW="569" oH="479" />
+    <sprite x="3" y="910" w="67" h="60" oX="3" oY="910" oW="569" oH="479" />
+  </Animation>
+  <Animation name="adorable_guard_idle" imagePath="guards.png" width="498" height="1053" interval="0.07" isLoop="true">
+    <sprite x="428" y="727" w="37" h="43" oX="428" oY="727" oW="339" oH="349" />
+    <sprite x="382" y="721" w="40" h="49" oX="382" oY="721" oW="339" oH="349" />
+    <sprite x="335" y="725" w="39" h="45" oX="335" oY="725" oW="339" oH="349" />
+    <sprite x="287" y="727" w="38" h="43" oX="287" oY="727" oW="339" oH="349" />
+    <sprite x="228" y="725" w="53" h="44" oX="228" oY="725" oW="339" oH="349" />
+    <sprite x="170" y="719" w="51" h="51" oX="170" oY="719" oW="339" oH="349" />
+    <sprite x="121" y="722" w="40" h="48" oX="121" oY="722" oW="339" oH="349" />
+  </Animation>
+  <Animation name="adorable_guard_idle2" imagePath="guards.png" width="498" height="1053" interval="0.07" isLoop="true">
+    <sprite x="411" y="842" w="54" h="57" offsetX="9" offsetY="4" />
+  </Animation>
+  <Animation name="fat_guard_fire_jump" imagePath="guards.png" width="498" height="1053" interval="0.07" isLoop="true">
+    <sprite x="447" y="598" w="40" h="53" oX="447" oY="598" oW="202" oH="433" />
+    <sprite x="396" y="592" w="42" h="59" oX="396" oY="592" oW="202" oH="433" />
+    <sprite x="351" y="593" w="40" h="58" oX="351" oY="593" oW="202" oH="433" />
+    <sprite x="306" y="594" w="37" h="57" oX="306" oY="594" oW="202" oH="433" />
+    <sprite x="259" y="599" w="40" h="52" oX="259" oY="599" oW="202" oH="433" />
+    <sprite x="202" y="593" w="42" h="58" oX="202" oY="593" oW="202" oH="433" />
+    <sprite x="157" y="594" w="41" h="57" oX="157" oY="594" oW="202" oH="433" />
+    <sprite x="110" y="594" w="42" h="57" oX="110" oY="594" oW="202" oH="433" />
+    <sprite x="60" y="601" w="44" h="50" oX="60" oY="601" oW="202" oH="433" />
+  </Animation>
+    <Animation name="explosion" imagePath="enemy_explosion.png" width="1780" height="115" interval="0.07" isLoop="false">
+    <sprite x="71" y="71" w="39" h="29" oX="71" oY="71" oW="-1496" oH="1641" />
+    <sprite x="196" y="15" w="145" h="93" oX="196" oY="15" oW="-1496" oH="1641" />
+    <sprite x="372" y="13" w="155" h="97" oX="372" oY="13" oW="-1496" oH="1641" />
+    <sprite x="540" y="9" w="163" h="101" oX="540" oY="9" oW="-1496" oH="1641" />
+    <sprite x="716" y="7" w="171" h="103" oX="716" oY="7" oW="-1496" oH="1641" />
+    <sprite x="891" y="1" w="175" h="109" oX="891" oY="1" oW="-1496" oH="1641" />
+    <sprite x="1112" y="40" w="83" h="73" oX="1112" oY="40" oW="-1496" oH="1641" />
+    <sprite x="1294" y="42" w="79" h="71" oX="1294" oY="42" oW="-1496" oH="1641" />
+    <sprite x="1476" y="46" w="77" h="67" oX="1476" oY="46" oW="-1496" oH="1641" />
+    <sprite x="1656" y="46" w="73" h="67" oX="1656" oY="46" oW="-1496" oH="1641" />
+  </Animation>
+</Animations>

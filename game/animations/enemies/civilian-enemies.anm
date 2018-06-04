@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+ <Animation name="pot_dropper" imagePath="civilian-enemies.png" width="1065" height="588" interval="0.07" isLoop="false">
+   <sprite x="11" y="35" w="10" h="21" offsetX="0" offsetY="0" />
+    <sprite x="42" y="32" w="16" h="24" offsetX="0" offsetY="-1.5" />
+    <sprite x="73" y="29" w="22" h="31" offsetX="0" offsetY="0" />
+    <sprite x="107" y="29" w="28" h="30" offsetX="2.5" offsetY="0" />
+    <sprite x="145" y="26" w="40" h="35" offsetX="10" offsetY="13.5" />
+    <sprite x="194" y="26" w="40" h="40" offsetX="9" offsetY="10.5" />
+    <sprite x="251" y="27" w="42" h="40" offsetX="9.5" offsetY="3.5" />
+    <sprite x="306" y="31" w="24" h="21" offsetX="0" offsetY="8.5" />
+    <sprite x="345" y="36" w="17" h="12" offsetX="-1.5" offsetY="5" />
+    <sprite x="382" y="37" w="7" h="5" offsetX="-7" offsetY="3" />
+  </Animation>
+  <Animation name="pot_falling" imagePath="civilian-enemies.png" width="1065" height="588" interval="0.07" isLoop="true">
+    <sprite x="15" y="97" w="27" h="20" oX="15" oY="97" oW="109" oH="219" />
+    <sprite x="56" y="95" w="23" h="23" oX="56" oY="95" oW="109" oH="219" />
+    <sprite x="90" y="95" w="25" h="21" oX="90" oY="95" oW="109" oH="219" />
+    <sprite x="127" y="98" w="26" h="15" oX="127" oY="98" oW="109" oH="219" />
+    <sprite x="164" y="92" w="23" h="23" oX="164" oY="92" oW="109" oH="219" />
+    <sprite x="204" y="94" w="20" h="24" oX="204" oY="94" oW="109" oH="219" />
+  </Animation>
+  <Animation name="pot_destroyed" imagePath="civilian-enemies.png" width="1065" height="588" interval="0.07" isLoop="false">
+    <sprite x="235" y="100" w="36" h="14" oX="235" oY="100" oW="-782" oH="723" />
+    <sprite x="292" y="94" w="67" h="21" oX="292" oY="94" oW="-782" oH="723" />
+    <sprite x="376" y="94" w="75" h="25" oX="376" oY="94" oW="-782" oH="723" />
+    <sprite x="472" y="88" w="85" h="33" oX="472" oY="88" oW="-782" oH="723" />
+    <sprite x="578" y="85" w="95" h="32" oX="578" oY="85" oW="-782" oH="723" />
+    <sprite x="695" y="83" w="95" h="35" oX="695" oY="83" oW="-782" oH="723" />
+    <sprite x="814" y="84" w="101" h="35" oX="814" oY="84" oW="-782" oH="723" />
+    <sprite x="954" y="81" w="101" h="29" oX="954" oY="81" oW="-782" oH="723" />
+  </Animation>
+    <Animation name="knife_juggler" imagePath="civilian-enemies.png" width="1065" height="588" interval="0.07" isLoop="false">
+    <sprite x="568" y="159" w="47" h="78" offsetX="-1.5" offsetY="14.5"  />
+    <sprite x="628" y="160" w="60" h="77" offsetX="6" offsetY="14"  />
+    <sprite x="8" y="157" w="47" h="80" offsetX="0" offsetY="15.5" />
+    <sprite x="67" y="152" w="46" h="85" offsetX="-1" offsetY="18.5" />
+    <sprite x="127" y="156" w="38" h="81" offsetX="1" offsetY="16" />
+    <sprite x="179" y="160" w="50" h="77" offsetX="1" offsetY="14.5" />
+    <sprite x="240" y="160" w="63" h="77" offsetX="5.5" offsetY="14" />
+    <sprite x="314" y="170" w="54" h="67" offsetX="4" offsetY="9"  />
+    <sprite x="376" y="158" w="55" h="79" offsetX="-4.5" offsetY="15" />
+    <sprite x="438" y="151" w="51" h="86" offsetX="-4.5" offsetY="18.5" />
+    <sprite x="502" y="156" w="62" h="81" offsetX="13" offsetY="16"  />
+  </Animation>
+   <Animation name="apple_thief_idle" imagePath="civilian-enemies.png" width="1065" height="588" interval="1" isLoop="false">
+     <sprite x="18" y="360" w="35" h="38" offsetX="0" offsetY="-4.5" />
+  </Animation>
+  <Animation name="apple_thief_look" imagePath="civilian-enemies.png" width="1065" height="588" interval="0.07" isLoop="false">
+    <sprite x="109" y="335" w="31" h="63" offsetX="0" offsetY="7.5" />
+    <sprite x="147" y="349" w="33" h="48" offsetX="0" offsetY="0" />
+    <sprite x="186" y="350" w="36" h="45" offsetX="-0.5" offsetY="-1.5" />
+    <sprite x="226" y="350" w="36" h="45" offsetX="-0.5" offsetY="-1.5" />
+  </Animation>
+  <Animation name="apple_thief_steal" imagePath="civilian-enemies.png" width="1065" height="588" interval="0.12" isLoop="false">
+    <sprite x="289" y="355" w="35" h="38" offsetX="0" offsetY="-4.5" />
+    <sprite x="335" y="355" w="35" h="39" offsetX="0" offsetY="-4" />
+    <sprite x="379" y="353" w="48" h="39" offsetX="5.5" offsetY="-4" />
+    <sprite x="433" y="353" w="59" h="39" offsetX="10" offsetY="-4.5" />
+  </Animation>
+  <Animation name="apple_thief_run" imagePath="civilian-enemies.png" width="1065" height="588" interval="0.07" isLoop="true">
+    <sprite x="20" y="428" w="52" h="45" offsetX="2.5" offsetY="-1.5" />
+    <sprite x="79" y="423" w="43" h="45" offsetX="0" offsetY="-1.5" />
+    <sprite x="126" y="417" w="42" h="50" offsetX="0.5" offsetY="1" />
+    <sprite x="174" y="416" w="37" h="50" offsetX="0" offsetY="1" />
+    <sprite x="217" y="415" w="37" h="50" offsetX="0" offsetY="0.5" />
+    <sprite x="263" y="417" w="37" h="48" offsetX="0" offsetY="0" />
+    <sprite x="307" y="415" w="54" h="45" offsetX="5.5" offsetY="-1.5" />
+    <sprite x="370" y="414" w="42" h="47" offsetX="3.5" offsetY="-1.5" />
+    <sprite x="422" y="409" w="42" h="51" offsetX="1.5" offsetY="1" />
+    <sprite x="470" y="407" w="37" h="52" offsetX="1" offsetY="2" />
+    <sprite x="517" y="406" w="37" h="52" offsetX="-1" offsetY="2" />
+    <sprite x="566" y="409" w="37" h="49" offsetX="0" offsetY="0.5" />
+  </Animation>
+</Animations>

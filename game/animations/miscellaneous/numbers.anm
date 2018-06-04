@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Animations>
+  <Animation name="1" imagePath="numbers.png" width="180" height="18">
+    <sprite x="21" y="1" w="12" h="15" oX="21" oY="1" oW="-6" oH="12" />
+  </Animation>
+  <Animation name="2" imagePath="numbers.png" width="180" height="18">
+    <sprite x="37" y="1" w="16" h="15" oX="37" oY="1" oW="-20" oH="16" />
+  </Animation>
+  <Animation name="3" imagePath="numbers.png" width="180" height="18">
+    <sprite x="55" y="1" w="16" h="15" oX="55" oY="1" oW="-38" oH="16" />
+  </Animation>
+  <Animation name="4" imagePath="numbers.png" width="180" height="18">
+    <sprite x="73" y="1" w="16" h="15" oX="73" oY="1" oW="-56" oH="16" />
+  </Animation>
+  <Animation name="5" imagePath="numbers.png" width="180" height="18">
+    <sprite x="91" y="1" w="16" h="15" oX="91" oY="1" oW="-74" oH="16" />
+  </Animation>
+  <Animation name="6" imagePath="numbers.png" width="180" height="18">
+    <sprite x="109" y="1" w="16" h="15" oX="109" oY="1" oW="-92" oH="16" />
+  </Animation>
+  <Animation name="7" imagePath="numbers.png" width="180" height="18">
+    <sprite x="127" y="1" w="16" h="15" oX="127" oY="1" oW="-110" oH="16" />
+  </Animation>
+  <Animation name="8" imagePath="numbers.png" width="180" height="18">
+    <sprite x="145" y="1" w="16" h="15" oX="145" oY="1" oW="-128" oH="16" />
+  </Animation>
+  <Animation name="9" imagePath="numbers.png" width="180" height="18">
+    <sprite x="163" y="1" w="16" h="15" oX="163" oY="1" oW="-146" oH="16" />
+  </Animation>
+  <Animation name="0" imagePath="numbers.png" width="180" height="18">
+    <sprite x="1" y="1" w="16" h="15" oX="1" oY="1" oW="16" oH="16" />
+  </Animation>
+</Animations>

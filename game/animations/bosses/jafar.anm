@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Animation name="fire" imagePath="jafar.png" interval="0.09" isLoop="false">
+    <sprite x="14" y="193" w="23" h="46" offsetX="0" offsetY="0.5" />
+    <sprite x="46" y="187" w="21" h="52" offsetX="-2" offsetY="3.5" />
+    <sprite x="78" y="193" w="23" h="46" offsetX="-1" offsetY="0.5" />
+    <sprite x="110" y="190" w="26" h="49" offsetX="-2.5" offsetY="2" />
+    <sprite x="150" y="194" w="34" h="45" offsetX="-3.5" offsetY="0" />
+  </Animation>
+  <Animation name="fire-hell" imagePath="jafar.png" interval="0.09" isLoop="true">
+    <sprite x="14" y="193" w="23" h="46" offsetX="0" offsetY="0.5" />
+    <sprite x="46" y="187" w="21" h="52" offsetX="-2" offsetY="3.5" />
+    <sprite x="78" y="193" w="23" h="46" offsetX="-1" offsetY="0.5" />
+    <sprite x="110" y="190" w="26" h="49" offsetX="-2.5" offsetY="2" />
+    <sprite x="150" y="194" w="34" h="45" offsetX="-3.5" offsetY="0" />
+  </Animation>
+  <Animation name="jafar_idle" imagePath="jafar.png" width="863" height="348" interval="0.09" isLoop="false">
+    <sprite x="8" y="9" w="63" h="70" oX="8" oY="9" oW="72" oH="589" />
+  </Animation>
+  <Animation name="jafar_fire" imagePath="jafar.png" width="863" height="348" interval="0.09" isLoop="false">
+    <sprite x="8" y="9" w="63" h="70" oX="8" oY="9" oW="72" oH="589" />
+    <sprite x="80" y="10" w="56" h="69" oX="80" oY="10" oW="72" oH="589" />
+    <sprite x="144" y="11" w="54" h="68" oX="144" oY="11" oW="72" oH="589" />
+    <sprite x="208" y="12" w="50" h="67" oX="208" oY="12" oW="72" oH="589" />
+    <sprite x="272" y="11" w="63" h="68" oX="272" oY="11" oW="72" oH="589" />
+    <sprite x="344" y="11" w="81" h="68" oX="344" oY="11" oW="72" oH="589" />
+    <sprite x="440" y="11" w="84" h="68" oX="440" oY="11" oW="72" oH="589" />
+    <sprite x="536" y="11" w="67" h="68" oX="536" oY="11" oW="72" oH="589" />
+  </Animation>
+  <Animation name="snake" imagePath="jafar.png" width="863" height="348" interval="0.1" isLoop="false">
+    <sprite x="8" y="118" w="69" h="57" offsetX="30" offsetY="-6" />
+    <sprite x="88" y="112" w="63" h="63" offsetX="15" offsetY="-3.5" />
+    <sprite x="160" y="104" w="66" h="71" offsetX="3.5" offsetY="0.5" />
+    <sprite x="240" y="104" w="70" h="71" offsetX="-0.5" offsetY="0" />
+    <sprite x="320" y="92" w="68" h="83" offsetX="-1.5" offsetY="5.5" />
+    <sprite x="400" y="93" w="68" h="82" offsetX="-1.5" offsetY="4.5" />
+    <sprite x="480" y="94" w="69" h="81" offsetX="-2" offsetY="3.5" />
+    <sprite x="560" y="94" w="69" h="81" offsetX="-2" offsetY="4" />
+    <sprite x="480" y="94" w="69" h="81" offsetX="-2" offsetY="3.5" />
+    <sprite x="400" y="93" w="68" h="82" offsetX="-1.5" offsetY="4" />
+  </Animation>
+  <Animation name="fire-move" imagePath="jafar.png" width="863" height="348" interval="0.09" isLoop="true">
+	<sprite x="8" y="286" w="74" h="49" offsetX="0" offsetY="0" />
+    <sprite x="96" y="288" w="78" h="47" offsetX="1" offsetY="-1" />
+    <sprite x="184" y="294" w="98" h="41" offsetX="7" offsetY="-4" />
+    <sprite x="296" y="295" w="89" h="40" offsetX="12" offsetY="-4.5" />
+    <sprite x="400" y="305" w="76" h="30" offsetX="6.5" offsetY="-9.5" />
+    <sprite x="488" y="305" w="72" h="30" offsetX="3.5" offsetY="-9.5" />
+    <sprite x="568" y="293" w="63" h="42" offsetX="-4" offsetY="-3" />
+    <sprite x="645" y="285" w="63" h="50" offsetX="-5" offsetY="1.5" />
+  </Animation>
+  <Animation name="spell" imagePath="jafar.png" width="863" height="348" interval="0.09" isLoop="true">
+    <sprite x="198" y="226" w="27" h="13" oX="198" oY="226" oW="48" oH="100" />
+    <sprite x="238" y="224" w="23" h="15" oX="238" oY="224" oW="48" oH="100" />
+    <sprite x="270" y="225" w="25" h="14" oX="270" oY="225" oW="48" oH="100" />
+  </Animation>
+  <Animation name="spell-hit" imagePath="jafar.png" width="863" height="348" interval="0.02" isLoop="false">
+    <sprite x="310" y="227" w="13" h="12" oX="310" oY="227" oW="-134" oH="92" />
+    <sprite x="334" y="226" w="34" h="13" oX="334" oY="226" oW="-134" oH="92" />
+    <sprite x="382" y="219" w="14" h="20" oX="382" oY="219" oW="-134" oH="92" />
+  </Animation>
+</Animations>

@@ -1,0 +1,86 @@
+[I] [ala::Graphics] : Created
+[I] [ala::Graphics] : Initialized DirectX
+[I] [ala::Graphics] : Created DirectX Device
+[I] [ala::Graphics] : Created DirectX Sprite
+[I] [ala::Graphics] : Created DirectX Line
+[I] [ala::Input] : Created
+[I] [ala::Input] : Created DirectX Input
+[I] [ala::Input] : Created DirectX Input Keyboard Device
+[I] [ala::Input] : Acquired Keyboard Device
+[I] [ala::Audio] : Created
+[I] [ala::Audio] : Created DirectX Sound
+[I] [ala::GameManager] : Created
+[I] [ala::PhysicsManager] : Created
+[I] [ala::Application] : On Background to Foreground
+[I] [EditorController] : Ä¶î) -1224.00 -276.00
+[I] [EditorController] : ê,Àî) 1110.00 159.00
+[I] [EditorController] : 0(Àî) 1083.00 90.00
+[I] [EditorController] : –#Àî) 1866.00 195.00
+[I] [EditorController] : ê"Àî) 2070.00 258.00
+[I] [EditorController] : Àî) 2178.00 33.00
+[I] [EditorController] :  -2409.00 117.00
+[I] [EditorController] : pÀî) 2409.00 -45.00
+[I] [EditorController] : PÀî) 402.00 -228.00
+[I] [EditorController] : @cŒî) 789.00 30.00
+[I] [EditorController] : ‡cŒî) 2334.00 234.00
+[I] [EditorController] : ∞Àî) 1053.00 -147.00
+[I] [EditorController] :  Àî) 2238.00 -279.00
+[I] [EditorController] : êÀî) 2262.00 -162.00
+[I] [EditorController] : 0Ò î) 2262.00 -162.00
+[I] [EditorController] : 0Ï î) 1965.00 -129.00
+[I] [EditorController] :  ¸ î) 1017.00 18.00
+[I] [EditorController] : †˘ î) 564.00 -84.00
+[I] [EditorController] :  342.00 -69.00
+[I] [EditorController] : pàŒî) 1779.00 123.00
+[I] [EditorController] : éŒî) 1173.00 219.00
+[I] [EditorController] : píŒî) 621.00 45.00
+[I] [EditorController] : –ëŒî) 696.00 171.00
+[I] [EditorController] : `ÑŒî) 402.00 171.00
+[I] [EditorController] : ‡ÜŒî) 201.00 171.00
+[I] [EditorController] : ‡ÅŒî) -450.00 60.00
+[I] [EditorController] : P{Œî) -489.00 -99.00
+[I] [EditorController] : êhŒî) -891.00 -51.00
+[I] [EditorController] : ‡hŒî) -861.00 -99.00
+[I] [EditorController] : êrŒî) 1200.00 168.00
+[I] [EditorController] : ‡õ¶î) 660.00 -129.00
+[I] [EditorController] :  Ñ¶î) -2283.00 -261.00
+[I] [EditorController] : ¿Ñ¶î) -822.00 -285.00
+[I] [EditorController] : Ì†î) -1686.00 -384.00
+[I] [EditorController] : ‡å¶î) -294.00 -123.00
+[I] [EditorController] :  ì¶î) -837.00 81.00
+[I] [EditorController] : ∞î¶î) 314.00 135.00
+[I] [EditorController] : pò¶î) 2328.00 -120.00
+[I] [EditorController] : †Ü¶î) -930.00 126.00
+[I] [EditorController] : pß¶î) -162.00 -141.00
+[I] [EditorController] : `£¶î) 126.00 237.00
+[I] [EditorController] : ê™¶î) 240.00 51.00
+[I] [ala::GameManager] : Released
+[I] [ala::Audio] : Released DirectX Sound
+[I] [ala::Audio] : Released
+[I] [ala::Input] : Unacquired Keyboard Device
+[I] [ala::Input] : Released DirectX Input Keyboard Device
+[I] [ala::Input] : Released DirectX Input
+[I] [ala::Input] : Released
+[I] [ala::Graphics] : Released DirectX Line
+[I] [ala::Graphics] : Released DirectX Sprite
+[I] [ala::Graphics] : Released DirectX Device
+[I] [ala::Graphics] : Released DirectX
+[I] [ala::Graphics] : Released
+[I] [ala::PhysicsManager] : Released
+[I] [ala::Application] : Total Resources Created: 31
+[I] [ala::Application] : Total Resources Deleted: 31
+[I] [ala::Application] : Total Resource Initializers Created: 1
+[I] [ala::Application] : Total Resource Initializers Deleted: 1
+[I] [ala::Application] : Total Prefabs Created: 23
+[I] [ala::Application] : Total Prefabs Deleted: 23
+[I] [ala::Application] : Total Scenes Created: 2
+[I] [ala::Application] : Total Scenes Deleted: 1
+[I] [ala::Application] : Total Objects Created: 54
+[I] [ala::Application] : Total Objects Deleted: 54
+[I] [ala::Application] : Total Components Created: 215
+[I] [ala::Application] : Total Components Deleted: 215
+[I] [ala::Application] : Total Loggers Created: 10
+[I] [ala::Application] : Total Loggers Deleted: 9
+[I] [ala::Application] : Total Messengers Created: 55
+[I] [ala::Application] : Total Messengers Deleted: 55
+[I] [ala::Application] : Average FPS: 60

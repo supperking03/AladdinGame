@@ -1,0 +1,880 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="app">
+      <UniqueIdentifier>{b467e535-ea43-46fe-af98-727f5ae097df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scenes">
+      <UniqueIdentifier>{eb0a6ca3-8a1f-44cd-a4c9-5c84e6ea5d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="texures">
+      <UniqueIdentifier>{dc8c514d-9117-4d7e-9261-edc980421837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="prefabs">
+      <UniqueIdentifier>{06af661b-e60c-4b71-be13-42ab78410376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{8abd1086-4f7e-4275-9697-a2646390a106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio">
+      <UniqueIdentifier>{d11a369c-7d56-49de-bff0-ee23c4387ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio\sfx">
+      <UniqueIdentifier>{0fa2c2a0-8353-43a0-a406-bfa0aca9b011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animations">
+      <UniqueIdentifier>{6f2110f8-5cca-4925-a665-f5a8eb1bcb0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fonts">
+      <UniqueIdentifier>{8fb5963f-e249-43a0-bcce-0ea5a9dd7743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animations\playable_characters">
+      <UniqueIdentifier>{42d05d1f-3564-43ee-a864-1d9d9a050770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animations\bosses">
+      <UniqueIdentifier>{9f0fca1d-fa17-4e1a-8473-48fe847696b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animations\miscellaneous">
+      <UniqueIdentifier>{77ed97ff-a9f7-4b9e-9165-bea4b22daa78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animations\enemies">
+      <UniqueIdentifier>{aea38d88-f1ed-4ab1-9425-359712804e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="texures\bosses">
+      <UniqueIdentifier>{fcf28426-845c-4489-9781-0eb3aecc1035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="texures\enemies">
+      <UniqueIdentifier>{ae24411f-a483-49e0-9355-020cb6d677c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="texures\miscellaneous">
+      <UniqueIdentifier>{d81e52d2-94ae-48b6-b30d-5e548456f8a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="texures\playable_characters">
+      <UniqueIdentifier>{030ef436-aea8-4526-8a29-41181afe0a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="texures\backgrounds">
+      <UniqueIdentifier>{b6e218a0-e77c-4afd-9580-f994853a5213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arugments">
+      <UniqueIdentifier>{f0a8dd1c-ee87-4adb-bd61-bf68c43d06c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animations\nonplayable_characters">
+      <UniqueIdentifier>{88c003f8-8926-4ad9-a4b4-f3167480e156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio\background">
+      <UniqueIdentifier>{40001340-8ad7-45e2-89c6-3492f3b5137e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="texures\nonplayable_characters">
+      <UniqueIdentifier>{e06d1ad6-3854-441a-8c5c-decc0b0e27b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="maps">
+      <UniqueIdentifier>{ce003df0-b8fb-4cb0-bc66-bd0c8da1de18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app\main.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="app\MyApp.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="app\MyResourceInitializer.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\BasicExamplePrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\AnimationAndStateExamplePrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\AladdinScene.cpp">
+      <Filter>scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\AladdinPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\CameraController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\EditorScene.cpp">
+      <Filter>scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\EditorPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\EditorController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\MenuScene.cpp">
+      <Filter>scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\MenuController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\PointerPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\JafarPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\JafarFirePrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\JafarController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\JafarSpellPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\SpellTriggerChecker.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\PotPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\StairController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\AladdinController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\GameDataListener.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\ThrowingAppleController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\ThrowingApplePrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp" />
+    <ClCompile Include="scripts\EnemyDirectionController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\WeaponController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\ThrowingKnifePrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\StaffGuardPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\PotController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\ThrowingKnifeController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\KnifeJugglerPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\KnifeGuardPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\SwordGuardPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\ExplosionPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\CollectableApplePrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\CollectableItemController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="arguments\IntArg.cpp">
+      <Filter>arugments</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\SpellController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\PotDropperPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\AppleThiefPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\EnemyController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\TwinklePrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\CheckpointPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\ExtraHealthPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\SpendThesePrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\GenieBonusPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\FallingPlatformPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\FallingPlatformController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="arguments\Vec2Arg.cpp">
+      <Filter>arugments</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\UIPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\UIController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\CamelPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\CamelController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\SalivaPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\SalivaController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\CharcoalBurnerController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\FlamePrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\AladdinHeadPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\LampPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\AbuHeadPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\ActiveTrackerController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\OneWayPlatformController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\SpringPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\SpringController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\AudioEventListenerPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\AudioEventListenerController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\DieScene.cpp">
+      <Filter>scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\SpawnGroupController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\SpawnPointController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\BossSceneController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\LevelCompletePrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\CompleteScene.cpp">
+      <Filter>scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\BigTwinklePrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\NormalTwinklePrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\BigExplosionPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\PlayMenuPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\OptionMenuPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\RetryScene.cpp">
+      <Filter>scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\PeddlerPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\PeddlerController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\PeddlerTextPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\ParalaxController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\DynamicParallaxController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\SkyPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\StaticParallaxController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\SandPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\SingleLayerParallaxController.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\JafarForegroundPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\FadeInEffect.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\FadeOutEffect.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\FadeInEffectPrefab.cpp">
+      <Filter>prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="prefabs\MenuSceneFadeOutTransitionPrefab.cpp" />
+    <ClCompile Include="prefabs\CompleteSceneFadeOutTransitionPrefab.cpp" />
+    <ClCompile Include="prefabs\DieSceneFadeOutTransitionPrefab.cpp" />
+    <ClCompile Include="prefabs\AladdinSceneFadeOutTransitionPrefab.cpp" />
+    <ClCompile Include="prefabs\RetrySceneFadeOutTransitionPrefab.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app\MyApp.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\MyResourceInitializer.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\BasicExamplePrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\AnimationAndStateExamplePrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\AladdinScene.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\AladdinPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\CameraController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\EditorScene.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\EditorPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\EditorController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\MenuScene.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\MenuController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\PointerPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\JafarPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\JafarFirePrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\JafarController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\JafarSpellPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\SpellTriggerChecker.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\PotPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\StairController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\AladdinController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\GameDataListener.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\ThrowingAppleController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\ThrowingApplePrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h" />
+    <ClInclude Include="scripts\PotController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\EnemyDirectionController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\WeaponController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\ThrowingKnifePrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\StaffGuardPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\SwordGuardPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\ExplosionPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\ThrowingKnifeController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\KnifeJugglerPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\KnifeGuardPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\CollectableApplePrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\CollectableItemController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="arguments\IntArg.h">
+      <Filter>arugments</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\SpellController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\PotDropperPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\AppleThiefPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\EnemyController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\TwinklePrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="arguments\Vec2Arg.h">
+      <Filter>arugments</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\UIPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\UIController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\CheckpointPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\ExtraHealthPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\SpendThesePrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\GenieBonusPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\CamelPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\CamelController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\SalivaPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\SalivaController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\FallingPlatformPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\FallingPlatformController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\CharcoalBurnerController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\FlamePrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\AladdinHeadPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\LampPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\AbuHeadPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\ActiveTrackerController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\OneWayPlatformController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\SpringPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\SpringController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\AudioEventListenerPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\AudioEventListenerController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\DieScene.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\LevelCompletePrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\SpawnGroupController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\SpawnPointController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\BossSceneController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\CompleteScene.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\BigTwinklePrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\NormalTwinklePrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\BigExplosionPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\PlayMenuPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\OptionMenuPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\RetryScene.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\PeddlerPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\PeddlerController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\PeddlerTextPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\ParalaxController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\DynamicParallaxController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\SkyPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\StaticParallaxController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\SandPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\SingleLayerParallaxController.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\JafarForegroundPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\FadeInEffect.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts\FadeOutEffect.h">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\FadeInEffectPrefab.h">
+      <Filter>prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefabs\MenuSceneFadeOutTransitionPrefab.h" />
+    <ClInclude Include="prefabs\DieSceneFadeOutTransitionPrefab.h" />
+    <ClInclude Include="prefabs\CompleteSceneFadeOutTransitionPrefab.h" />
+    <ClInclude Include="prefabs\AladdinSceneFadeOutTransitionPrefab.h" />
+    <ClInclude Include="prefabs\RetrySceneFadeOutTransitionPrefab.h" />
+    <ClInclude Include="Macros.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="log.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fonts\crackman.ttf">
+      <Filter>fonts</Filter>
+    </Font>
+    <Font Include="fonts\aladdin.ttf">
+      <Filter>fonts</Filter>
+    </Font>
+    <Font Include="fonts\arcade.ttf">
+      <Filter>fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="animations\playable_characters\aladdin.anm">
+      <Filter>animations\playable_characters</Filter>
+    </None>
+    <None Include="animations\bosses\jafar.anm">
+      <Filter>animations\bosses</Filter>
+    </None>
+    <None Include="animations\enemies\civilian-enemies.anm">
+      <Filter>animations\enemies</Filter>
+    </None>
+    <None Include="animations\enemies\guards.anm">
+      <Filter>animations\enemies</Filter>
+    </None>
+    <None Include="animations\miscellaneous\cutscenes.anm">
+      <Filter>animations\miscellaneous</Filter>
+    </None>
+    <None Include="animations\miscellaneous\items.anm">
+      <Filter>animations\miscellaneous</Filter>
+    </None>
+    <None Include="animations\miscellaneous\numbers.anm">
+      <Filter>animations\miscellaneous</Filter>
+    </None>
+    <None Include="fonts\one.fnt">
+      <Filter>fonts</Filter>
+    </None>
+    <None Include="fonts\two.fnt">
+      <Filter>fonts</Filter>
+    </None>
+    <None Include="animations\nonplayable_characters\abu.anm">
+      <Filter>animations\nonplayable_characters</Filter>
+    </None>
+    <None Include="animations\nonplayable_characters\camel.anm">
+      <Filter>animations\nonplayable_characters</Filter>
+    </None>
+    <None Include="animations\nonplayable_characters\peddler.anm">
+      <Filter>animations\nonplayable_characters</Filter>
+    </None>
+    <None Include="animations\nonplayable_characters\spring.anm">
+      <Filter>animations\nonplayable_characters</Filter>
+    </None>
+    <None Include="animations\miscellaneous\apple.anm">
+      <Filter>animations\miscellaneous</Filter>
+    </None>
+    <None Include="maps\backgroundTileset0.tsx">
+      <Filter>maps</Filter>
+    </None>
+    <None Include="maps\bossBackground.tsx">
+      <Filter>maps</Filter>
+    </None>
+    <None Include="maps\foregroundTileset0.tsx">
+      <Filter>maps</Filter>
+    </None>
+    <None Include="maps\JafarBoss.tmx">
+      <Filter>maps</Filter>
+    </None>
+    <None Include="maps\AgrabahMarket.tmx">
+      <Filter>maps</Filter>
+    </None>
+    <None Include="15520350_15520396.docx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\playable_characters\aladdin.png">
+      <Filter>texures\playable_characters</Filter>
+    </Image>
+    <Image Include="textures\miscellaneous\cutscenes.png">
+      <Filter>texures\miscellaneous</Filter>
+    </Image>
+    <Image Include="textures\miscellaneous\items.png">
+      <Filter>texures\miscellaneous</Filter>
+    </Image>
+    <Image Include="textures\miscellaneous\numbers.png">
+      <Filter>texures\miscellaneous</Filter>
+    </Image>
+    <Image Include="textures\enemies\civilian-enemies.png">
+      <Filter>texures\enemies</Filter>
+    </Image>
+    <Image Include="textures\enemies\guards.png">
+      <Filter>texures\enemies</Filter>
+    </Image>
+    <Image Include="textures\bosses\jafar.png">
+      <Filter>texures\bosses</Filter>
+    </Image>
+    <Image Include="textures\backgrounds\scene_1_0.png">
+      <Filter>texures\backgrounds</Filter>
+    </Image>
+    <Image Include="textures\backgrounds\scene_1_1.png">
+      <Filter>texures\backgrounds</Filter>
+    </Image>
+    <Image Include="textures\backgrounds\backgroundJarfar.png">
+      <Filter>texures\backgrounds</Filter>
+    </Image>
+    <Image Include="textures\backgrounds\backgroundJarfarfront.png">
+      <Filter>texures\backgrounds</Filter>
+    </Image>
+    <Image Include="textures\backgrounds\fallingplatform.png">
+      <Filter>texures\backgrounds</Filter>
+    </Image>
+    <Image Include="textures\enemies\enemy_explosion.png">
+      <Filter>texures\enemies</Filter>
+    </Image>
+    <Image Include="textures\miscellaneous\aladdinPoster.png">
+      <Filter>texures\miscellaneous</Filter>
+    </Image>
+    <Image Include="textures\miscellaneous\enemy_explosions.png">
+      <Filter>texures\miscellaneous</Filter>
+    </Image>
+    <Image Include="textures\miscellaneous\font_one.png">
+      <Filter>texures\miscellaneous</Filter>
+    </Image>
+    <Image Include="textures\miscellaneous\font_two.png">
+      <Filter>texures\miscellaneous</Filter>
+    </Image>
+    <Image Include="textures\miscellaneous\ItemsExplored.png">
+      <Filter>texures\miscellaneous</Filter>
+    </Image>
+    <Image Include="textures\miscellaneous\lamp.png">
+      <Filter>texures\miscellaneous</Filter>
+    </Image>
+    <Image Include="textures\miscellaneous\ruby.png">
+      <Filter>texures\miscellaneous</Filter>
+    </Image>
+    <Image Include="textures\miscellaneous\victory.png">
+      <Filter>texures\miscellaneous</Filter>
+    </Image>
+    <Image Include="textures\nonplayable_characters\abu_end.png">
+      <Filter>texures\nonplayable_characters</Filter>
+    </Image>
+    <Image Include="textures\nonplayable_characters\abu_victory.png">
+      <Filter>texures\nonplayable_characters</Filter>
+    </Image>
+    <Image Include="textures\nonplayable_characters\camel.png">
+      <Filter>texures\nonplayable_characters</Filter>
+    </Image>
+    <Image Include="textures\nonplayable_characters\peddler.png">
+      <Filter>texures\nonplayable_characters</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="audio\sfx\Aaah.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\Aladdin Push.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\AladdinHurt.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\AladdinOof.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\Apple Collect.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\AppleCollect.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\ClayPot.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\CloudPoof.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\Continue Point.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\ExtraHealth.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\FireFromCoal.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\Flagpole.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\Gem Collect.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\GenieFumes.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\GuardBeckon.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\GuardHit1.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\GuardHit2.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\Guard%27sPants.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\JafarLaugh.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\JafarSnake.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\MenuChange.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\MenuSelect.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\sfx\SwordChing.wav">
+      <Filter>audio\sfx</Filter>
+    </Media>
+    <Media Include="audio\background\AgrabahMarket.wav">
+      <Filter>audio\background</Filter>
+    </Media>
+    <Media Include="audio\background\AWholeNewWorld.mp3">
+      <Filter>audio\background</Filter>
+    </Media>
+    <Media Include="audio\background\AWholeNewWorld.wav">
+      <Filter>audio\background</Filter>
+    </Media>
+    <Media Include="audio\background\BossTune.mp3">
+      <Filter>audio\background</Filter>
+    </Media>
+    <Media Include="audio\background\LevelComplete.mp3">
+      <Filter>audio\background</Filter>
+    </Media>
+    <Media Include="audio\background\LevelComplete.wav">
+      <Filter>audio\background</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

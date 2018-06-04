@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Animation name="fan" imagePath="abu.png" interval="0.1" isLoop="true">
+    <sprite x="11" y="32" w="67" h="28" offsetX="0" offsetY="0" />
+    <sprite x="86" y="25" w="56" h="35" offsetX="4.5" offsetY="4" />
+    <sprite x="152" y="17" w="56" h="43" offsetX="5.5" offsetY="8" />
+    <sprite x="218" y="7" w="57" h="53" offsetX="5" offsetY="13" />
+    <sprite x="285" y="8" w="50" h="52" offsetX="8.5" offsetY="12.5" />
+    <sprite x="350" y="13" w="62" h="47" offsetX="2.5" offsetY="10" />
+  </Animation>
+  <Animation name="abu-retry" imagePath="abu.png" width="535" height="610" interval="0.1" isLoop="false">
+    <sprite x="14" y="136" w="43" h="41" oX="14" oY="136" oW="167" oH="262" />
+    <sprite x="69" y="136" w="42" h="41" oX="69" oY="136" oW="167" oH="262" />
+    <sprite x="124" y="136" w="42" h="41" oX="124" oY="136" oW="167" oH="262" />
+    <sprite x="178" y="137" w="43" h="40" oX="178" oY="137" oW="167" oH="262" />
+    <sprite x="233" y="138" w="43" h="39" oX="233" oY="138" oW="167" oH="262" />
+  </Animation>
+  <Animation name="abu-retry2" imagePath="abu.png" width="535" height="610" interval="0.1" isLoop="false">
+    <sprite x="233" y="138" w="43" h="39" oX="233" oY="138" oW="57" oH="262" />
+    <sprite x="178" y="137" w="43" h="40" oX="178" oY="137" oW="57" oH="262" />
+    <sprite x="124" y="136" w="42" h="41" oX="124" oY="136" oW="57" oH="262" />
+    <sprite x="69" y="136" w="42" h="41" oX="69" oY="136" oW="57" oH="262" />
+    <sprite x="14" y="136" w="43" h="41" oX="14" oY="136" oW="57" oH="262" />
+  </Animation>
+  <Animation name="abu-run" imagePath="abu.png" width="535" height="610" interval="0.1" isLoop="true">
+    <sprite x="18" y="84" w="25" h="32" oX="18" oY="84" oW="97" oH="368" />
+    <sprite x="52" y="84" w="41" h="32" oX="52" oY="84" oW="97" oH="368" />
+    <sprite x="101" y="85" w="51" h="31" oX="101" oY="85" oW="97" oH="368" />
+    <sprite x="161" y="80" w="39" h="36" oX="161" oY="80" oW="97" oH="368" />
+    <sprite x="211" y="81" w="34" h="35" oX="211" oY="81" oW="97" oH="368" />
+    <sprite x="255" y="81" w="44" h="35" oX="255" oY="81" oW="97" oH="368" />
+    <sprite x="312" y="83" w="49" h="33" oX="312" oY="83" oW="97" oH="368" />
+    <sprite x="371" y="86" w="45" h="30" oX="371" oY="86" oW="97" oH="368" />
+  </Animation>
+</Animations>

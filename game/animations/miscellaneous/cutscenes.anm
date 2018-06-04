@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Animations>
+  <Animation name="cutscene_1" imagePath="cutscenes.png">
+    <sprite x="651" y="193" w="319" h="255" />
+  </Animation>
+</Animations>

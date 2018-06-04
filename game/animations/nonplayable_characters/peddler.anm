@@ -1,0 +1,99 @@
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Animations>
+  <Animation name="pavilion_1" imagePath="peddler.png" interval="0.05" isLoop="false">
+    <sprite x="5" y="100" w="53" h="56" offsetX="0" offsetY="1" />
+    <sprite x="75" y="92" w="59" h="64" offsetX="-3" offsetY="5.5" />
+    <sprite x="154" y="73" w="58" h="83" offsetX="-3.5" offsetY="15" />
+    <sprite x="227" y="71" w="82" h="85" offsetX="-15.5" offsetY="16" />
+    <sprite x="325" y="71" w="87" h="85" offsetX="-15" offsetY="16" />
+    <sprite x="416" y="69" w="91" h="87" offsetX="-15" offsetY="17" />
+    <sprite x="513" y="69" w="92" h="87" offsetX="-15.5" offsetY="17" />
+    <sprite x="613" y="86" w="76" h="70" offsetX="-1.5" offsetY="8.5" />
+    <sprite x="701" y="85" w="97" h="70" offsetX="9" offsetY="8.5" />
+    <sprite x="809" y="85" w="100" h="69" offsetX="12.5" offsetY="8" />
+    <sprite x="6" y="191" w="99" h="72" offsetX="13" offsetY="9.5" />
+    <sprite x="122" y="190" w="105" h="76" offsetX="12" offsetY="8.5" />
+    <sprite x="246" y="188" w="105" h="77" offsetX="14" offsetY="12" />
+    <sprite x="364" y="188" w="107" h="78" offsetX="15" offsetY="12.5" />
+    <sprite x="490" y="193" w="128" h="77" offsetX="5.5" offsetY="9" />
+    <sprite x="633" y="198" w="129" h="76" offsetX="6" offsetY="8.5" />
+    <sprite x="779" y="202" w="135" h="74" offsetX="3" offsetY="6.5" />
+    <sprite x="10" y="304" w="148" h="56" offsetX="-3.5" offsetY="-0.5" />
+    <sprite x="180" y="306" w="133" h="64" offsetX="0" offsetY="-3.5" />
+    <sprite x="339" y="307" w="132" h="59" offsetX="24.5" offsetY="-1" />
+    <sprite x="490" y="312" w="107" h="51" offsetX="10" offsetY="-1" />
+    <sprite x="617" y="315" w="115" h="47" offsetX="6" offsetY="-3" />
+    <sprite x="751" y="304" w="121" h="59" offsetX="5" offsetY="3" />
+    <sprite x="10" y="410" w="122" h="60" offsetX="2.5" offsetY="3.5" />
+    <sprite x="152" y="416" w="60" h="53" offsetX="-20.5" offsetY="0" />
+    <sprite x="233" y="412" w="103" h="57" offsetX="-20" offsetY="1.5" />
+    <sprite x="354" y="388" w="92" h="81" offsetX="-20.5" offsetY="14" />
+    <sprite x="465" y="398" w="81" h="70" offsetX="-20" offsetY="8.5" />
+    <sprite x="567" y="400" w="79" h="67" offsetX="-20" offsetY="6.5" />
+    <sprite x="660" y="400" w="79" h="67" offsetX="-20" offsetY="6.5" />
+  </Animation>
+
+  <Animation name="pavilion_2" imagePath="peddler.png" interval="0.05" isLoop="false">
+    <sprite x="152" y="416" w="60" h="53" offsetX="-20.5" offsetY="0" />
+    <sprite x="233" y="412" w="103" h="57" offsetX="-20" offsetY="1.5" />
+    <sprite x="354" y="388" w="92" h="81" offsetX="-20.5" offsetY="14" />
+    <sprite x="465" y="398" w="81" h="70" offsetX="-20" offsetY="8.5" />
+    <sprite x="567" y="400" w="79" h="67" offsetX="-20" offsetY="6.5" />
+    <sprite x="660" y="400" w="79" h="67" offsetX="-20" offsetY="6.5" />
+  </Animation>
+
+  <Animation name="jewelry" imagePath="peddler.png" interval="0.1" isLoop="false">
+    <sprite x="5" y="8" w="26" h="51" offsetX="0" offsetY="-1" />
+    <sprite x="254" y="12" w="35" h="47" offsetX="-3" offsetY="-3" />
+    <sprite x="295" y="14" w="50" h="45" offsetX="-2.5" offsetY="-4" />
+    <sprite x="355" y="10" w="67" h="49" offsetX="13" offsetY="-2" />
+    <sprite x="436" y="11" w="58" h="49" offsetX="12.5" offsetY="-3" />
+    <sprite x="505" y="10" w="52" h="49" offsetX="8.5" offsetY="-2" />
+    <sprite x="565" y="10" w="52" h="49" offsetX="8.5" offsetY="-2" />
+    <sprite x="627" y="10" w="52" h="49" offsetX="8.5" offsetY="-2" />
+    <sprite x="565" y="10" w="52" h="49" offsetX="8.5" offsetY="-2" />
+    <sprite x="505" y="10" w="52" h="49" offsetX="8.5" offsetY="-2" />
+    <sprite x="436" y="11" w="58" h="49" offsetX="12.5" offsetY="-3" />
+    <sprite x="355" y="10" w="67" h="49" offsetX="13" offsetY="-2" />
+    <sprite x="295" y="14" w="50" h="45" offsetX="-2.5" offsetY="-4" />
+    <sprite x="254" y="12" w="35" h="47" offsetX="-3" offsetY="-3" />
+  </Animation>
+
+  <Animation name="idle_1" imagePath="peddler.png" interval="0.1" isLoop="true">
+    <sprite x="108" y="4" w="28" h="55" offsetX="-2.5" offsetY="1" />
+    <sprite x="146" y="4" w="28" h="55" offsetX="-2.5" offsetY="1" />
+    <sprite x="183" y="4" w="28" h="55" offsetX="-2.5" offsetY="1" />
+    <sprite x="219" y="4" w="28" h="55" offsetX="-2.5" offsetY="1" />
+  </Animation>
+
+  <Animation name="idle_2" imagePath="peddler.png" interval="0.1" isLoop="true">
+    <sprite x="5" y="8" w="26" h="51" offsetX="-1" offsetY="-0.5" />
+    <sprite x="38" y="6" w="26" h="53" offsetX="-2.5" offsetY="0" />
+    <sprite x="73" y="5" w="27" h="54" offsetX="-2.5" offsetY="0.5" />
+    <sprite x="108" y="4" w="28" h="55" offsetX="-2.5" offsetY="1" />
+    <sprite x="146" y="4" w="28" h="55" offsetX="-2.5" offsetY="1" />
+    <sprite x="183" y="4" w="28" h="55" offsetX="-2.5" offsetY="1" />
+    <sprite x="219" y="4" w="28" h="55" offsetX="-2.5" offsetY="1" />
+    <sprite x="183" y="4" w="28" h="55" offsetX="-2.5" offsetY="1" />
+    <sprite x="146" y="4" w="28" h="55" offsetX="-2.5" offsetY="1" />
+    <sprite x="108" y="4" w="28" h="55" offsetX="-2.5" offsetY="1" />
+    <sprite x="146" y="4" w="28" h="55" offsetX="-2.5" offsetY="1" />
+    <sprite x="183" y="4" w="28" h="55" offsetX="-2.5" offsetY="1" />
+    <sprite x="219" y="4" w="28" h="55" offsetX="-2.5" offsetY="1" />
+    <sprite x="5" y="8" w="26" h="51" offsetX="0" offsetY="-1" />
+    <sprite x="254" y="12" w="35" h="47" offsetX="-3" offsetY="-3" />
+    <sprite x="295" y="14" w="50" h="45" offsetX="-2.5" offsetY="-4" />
+    <sprite x="355" y="10" w="67" h="49" offsetX="13" offsetY="-2" />
+    <sprite x="436" y="11" w="58" h="49" offsetX="12.5" offsetY="-3" />
+    <sprite x="505" y="10" w="52" h="49" offsetX="8.5" offsetY="-2" />
+    <sprite x="565" y="10" w="52" h="49" offsetX="8.5" offsetY="-2" />
+    <sprite x="627" y="10" w="52" h="49" offsetX="8.5" offsetY="-2" />
+    <sprite x="565" y="10" w="52" h="49" offsetX="8.5" offsetY="-2" />
+    <sprite x="505" y="10" w="52" h="49" offsetX="8.5" offsetY="-2" />
+    <sprite x="436" y="11" w="58" h="49" offsetX="12.5" offsetY="-3" />
+    <sprite x="355" y="10" w="67" h="49" offsetX="13" offsetY="-2" />
+    <sprite x="295" y="14" w="50" h="45" offsetX="-2.5" offsetY="-4" />
+    <sprite x="254" y="12" w="35" h="47" offsetX="-3" offsetY="-3" />
+  </Animation>
+</Animations>

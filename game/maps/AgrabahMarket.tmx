@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="4771" tileheight="688" nextobjectid="309">
+ <properties>
+  <property name="background" value="AgrabahMarketBackground.png"/>
+  <property name="background_music" value="AgrabahMarket.wav"/>
+  <property name="foreground" value="AgrabahMarketForeground.png"/>
+  <property name="gravity_x" type="float" value="0"/>
+  <property name="gravity_y" type="float" value="-800"/>
+  <property name="height" type="float" value="688"/>
+  <property name="min_x" type="float" value="-160"/>
+  <property name="min_y" type="float" value="-112.5"/>
+  <property name="width" type="float" value="4771"/>
+ </properties>
+ <tileset firstgid="1" source="backgroundTileset0.tsx"/>
+ <tileset firstgid="2" source="foregroundTileset0.tsx"/>
+ <layer name="Background" width="1" height="1">
+  <data>
+   <tile gid="1"/>
+  </data>
+ </layer>
+ <layer name="Foreground" width="1" height="1">
+  <data>
+   <tile gid="2"/>
+  </data>
+ </layer>
+ <objectgroup name="UnmovableObjects">
+  <object id="8" name="Ground" type="GROUND" x="5" y="626" width="1147.33" height="332"/>
+  <object id="10" name="Ground" type="GROUND" x="1476" y="658.667" width="726" height="299.333"/>
+  <object id="12" name="Wall" type="WALL" x="1445" y="579.667" width="30" height="87"/>
+  <object id="15" name="Wall" type="WALL" x="1411.33" y="2.66667" width="62" height="432.667"/>
+  <object id="19" name="Stair" type="STAIR" x="1146.67" y="610.667" width="39.3333" height="13.3333"/>
+  <object id="20" name="Stair" type="STAIR" x="1187.33" y="602" width="38" height="22"/>
+  <object id="21" name="Stair" type="STAIR" x="1226.67" y="594.667" width="39" height="30"/>
+  <object id="22" name="Stair" type="STAIR" x="1267.33" y="586" width="37.6666" height="38.6667"/>
+  <object id="23" name="Stair" type="STAIR" x="1306.67" y="578" width="39.3333" height="46.6667"/>
+  <object id="24" name="Stair" type="STAIR" x="1348" y="569.333" width="36.3333" height="56"/>
+  <object id="25" name="Stair" type="STAIR" x="1386" y="561.333" width="38.6667" height="64"/>
+  <object id="26" name="Ground" type="GROUND" x="1426.67" y="560.667" width="59.3333" height="18"/>
+  <object id="28" name="Rope" type="ROPE" x="2088.67" y="330" width="5" height="276"/>
+  <object id="30" name="Wall" type="WALL" x="2180" y="290.667" width="62" height="364.667"/>
+  <object id="39" name="Stair" type="STAIR" x="4389" y="634.666" width="36.6667" height="16"/>
+  <object id="40" name="Stair" type="STAIR" x="4428.33" y="627.333" width="38.6667" height="16"/>
+  <object id="41" name="Stair" type="STAIR" x="4469" y="616.666" width="37.3334" height="19.3333"/>
+  <object id="42" name="Ground" type="GROUND" x="4508" y="617.334" width="257.333" height="315.333"/>
+  <object id="43" name="Stair" type="STAIR" x="4348.45" y="642.666" width="37.8789" height="12"/>
+  <object id="44" name="Platform" type="PLATFORM" x="4612.33" y="499.333" width="62.6667" height="12.6667"/>
+  <object id="45" name="Platform" type="PLATFORM" x="4309" y="466.666" width="77.3334" height="13.3333"/>
+  <object id="46" name="MapBlocker" type="MAPBLOCKER" x="4767.33" y="2.00033" width="500" height="684.667"/>
+  <object id="48" name="MapBlocker" type="MAPBLOCKER" x="-499" y="2.00033" width="500" height="684.667"/>
+  <object id="49" name="Platform" type="PLATFORM" x="4357" y="210.666" width="408" height="13.3333"/>
+  <object id="50" name="Platform" type="PLATFORM" x="3605.67" y="210.666" width="691.333" height="13.3333"/>
+  <object id="51" name="Platform" type="PLATFORM" x="3499" y="114" width="112" height="14.6667"/>
+  <object id="52" name="Platform" type="PLATFORM" x="1764.33" y="434.666" width="261.333" height="14.6667"/>
+  <object id="53" name="Ground" type="GROUND" x="3953" y="434.666" width="114" height="13.3333"/>
+  <object id="54" name="Stair" type="STAIR" x="3916.33" y="435.333" width="34" height="19.3333"/>
+  <object id="55" name="Stair" type="STAIR" x="3877" y="450.666" width="37.3334" height="19.3333"/>
+  <object id="56" name="Stair" type="STAIR" x="3821" y="466" width="54" height="19.3333"/>
+  <object id="57" name="Platform" type="GROUND" x="3060.33" y="482.666" width="757.333" height="13.3333"/>
+  <object id="58" name="Platform" type="GROUND" x="2821.33" y="418" width="241" height="13.3333"/>
+  <object id="59" name="Stair" type="STAIR" x="2786.58" y="401.75" width="4.00007" height="14.25"/>
+  <object id="60" name="Platform" type="GROUND" x="2644.33" y="402.666" width="140.666" height="13.3333"/>
+  <object id="61" name="Wall" type="WALL" x="2604" y="179.334" width="38" height="224"/>
+  <object id="62" name="Platform" type="PLATFORM" x="2525" y="162.666" width="115.333" height="13.3333"/>
+  <object id="63" name="Wall" type="WALL" x="2492" y="0.667" width="30.6667" height="224"/>
+  <object id="64" name="Platform" type="PLATFORM" x="2747.67" y="162.666" width="70.6667" height="13.3333"/>
+  <object id="65" name="Platform" type="PLATFORM" x="2820.33" y="291.333" width="363.333" height="13.3333"/>
+  <object id="66" name="Wall" type="WALL" x="2780" y="178" width="38" height="114.667"/>
+  <object id="67" name="Wall" type="WALL" x="3164" y="307.334" width="20" height="16"/>
+  <object id="68" name="Platform" type="PLATFORM" x="3186.33" y="323.333" width="428" height="13.3333"/>
+  <object id="69" name="Platform" type="PLATFORM" x="2970.33" y="162.666" width="190.667" height="13.3333"/>
+  <object id="70" name="Wall" type="WALL" x="3164" y="99.3337" width="22.6667" height="76"/>
+  <object id="71" name="Stair" type="STAIR" x="2554.67" y="515.333" width="35.3334" height="14">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 2"/>
+   </properties>
+  </object>
+  <object id="72" name="Stair" type="STAIR" x="2506.67" y="522.666" width="46" height="14">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 2"/>
+   </properties>
+  </object>
+  <object id="73" name="Stair" type="STAIR" x="2452" y="530.666" width="52.6667" height="14">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 2"/>
+   </properties>
+  </object>
+  <object id="74" name="Stair" type="STAIR" x="2418.67" y="538.666" width="31.3334" height="14">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 2"/>
+   </properties>
+  </object>
+  <object id="80" name="Stair" type="STAIR" x="2564.67" y="650" width="22" height="7.33333">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 1"/>
+   </properties>
+  </object>
+  <object id="81" name="Stair" type="STAIR" x="2532.67" y="642.666" width="30" height="14">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 1"/>
+   </properties>
+  </object>
+  <object id="82" name="Stair" type="STAIR" x="2500" y="634.666" width="30" height="14">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 1"/>
+   </properties>
+  </object>
+  <object id="83" name="Stair" type="STAIR" x="2468.67" y="626.666" width="29.3334" height="14">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 1"/>
+   </properties>
+  </object>
+  <object id="84" name="Stair" type="STAIR" x="2437.33" y="618.666" width="29.3334" height="14">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 1"/>
+   </properties>
+  </object>
+  <object id="85" name="Stair" type="STAIR" x="2388" y="610.666" width="46.6667" height="14">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 1"/>
+   </properties>
+  </object>
+  <object id="86" name="Stair" type="STAIR" x="2356.67" y="602.666" width="28.6667" height="14">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 1"/>
+   </properties>
+  </object>
+  <object id="87" name="Stair" type="STAIR" x="2325.33" y="594.666" width="29.3334" height="14">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 1"/>
+   </properties>
+  </object>
+  <object id="88" name="Stair" type="STAIR" x="2292.67" y="587.333" width="30" height="14">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 1"/>
+   </properties>
+  </object>
+  <object id="89" name="Stair" type="STAIR" x="2278" y="579.333" width="12.6667" height="14">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 1"/>
+   </properties>
+  </object>
+  <object id="90" name="Platform" type="PLATFORM" x="2244.33" y="579.333" width="31.3334" height="13.3333">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 1"/>
+   </properties>
+  </object>
+  <object id="91" name="Platform" type="GROUND" x="2591.08" y="515.333" width="143.917" height="13.3333"/>
+  <object id="92" name="Platform" type="PLATFORM" x="2739.67" y="563.333" width="93.3334" height="13.3333"/>
+  <object id="93" name="Platform" type="PLATFORM" x="1475.67" y="434.666" width="91.3334" height="14.6667"/>
+  <object id="94" name="Platform" type="PLATFORM" x="1475.67" y="386.666" width="29.3334" height="14.6667"/>
+  <object id="95" name="Platform" type="PLATFORM" x="1608.33" y="274" width="648.667" height="14.6667"/>
+  <object id="96" name="Rope" type="ROPE" x="1543.34" y="156" width="5" height="205.333"/>
+  <object id="97" name="Falling Platform" type="FALLING PLATFORM" x="1625.33" y="436.666" width="39.3334" height="14.6667"/>
+  <object id="98" name="Ground" type="GROUND" x="2241.33" y="659.334" width="531.333" height="299.333"/>
+  <object id="99" name="Wall" type="WALL" x="2775.33" y="579.334" width="42.6667" height="107.333"/>
+  <object id="100" name="Ground" type="GROUND" x="2822" y="660" width="1526.67" height="304.667"/>
+  <object id="101" name="Rope" type="ROPE" x="2696" y="88" width="5" height="240.667"/>
+  <object id="102" name="Rope" type="ROPE" x="4712.67" y="374" width="5" height="180.666"/>
+  <object id="103" name="Hanger" type="HANGER" x="4362.67" y="306.667" width="391" height="6.66667"/>
+  <object id="104" name="Hanger" type="HANGER" x="4358.67" y="82.6667" width="194.333" height="6.66667"/>
+  <object id="105" name="Wall" type="WALL" x="3564.67" y="130.667" width="37.3333" height="86"/>
+  <object id="106" name="Wall" type="WALL" x="4300.67" y="110.334" width="54" height="116.333"/>
+  <object id="108" name="Wall" type="WALL" x="3020" y="434" width="38" height="62"/>
+  <object id="216" name="Falling Platform" type="FALLING PLATFORM" x="4204.33" y="448.666" width="32" height="13.3333"/>
+  <object id="217" name="Falling Platform" type="FALLING PLATFORM" x="4105.67" y="470.666" width="32" height="13.3333"/>
+  <object id="257" name="Stair" type="STAIR" x="2387.34" y="546.666" width="29.3334" height="14">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 2"/>
+   </properties>
+  </object>
+  <object id="258" name="Stair" type="STAIR" x="2355.84" y="554.484" width="30.6061" height="14.1818">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 2"/>
+   </properties>
+  </object>
+  <object id="259" name="Stair" type="STAIR" x="2323.59" y="562.234" width="30.8561" height="14.1818">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 2"/>
+   </properties>
+  </object>
+  <object id="260" name="Stair" type="STAIR" x="2292.34" y="570.234" width="30.1061" height="13.9318">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 2"/>
+   </properties>
+  </object>
+  <object id="263" name="Charcoal Burner" type="CHARCOALBURNER" x="483.003" y="617.334" width="80.6666" height="5.99997"/>
+  <object id="267" name="Charcoal Burner" type="CHARCOALBURNER" x="3095.67" y="650.667" width="101.667" height="5.99997"/>
+  <object id="276" name="Charcoal Burner" type="CHARCOALBURNER" x="852.003" y="616.334" width="80.6666" height="5.99997"/>
+  <object id="277" name="Charcoal Burner" type="CHARCOALBURNER" x="1028" y="617.334" width="80.6666" height="5.99997"/>
+  <object id="278" name="Charcoal Burner" type="CHARCOALBURNER" x="2034" y="650.334" width="80.6666" height="5.99997"/>
+  <object id="281" name="Spring" type="SPRING" x="4231.33" y="114.667" width="38" height="23"/>
+  <object id="283" name="Spring" type="SPRING" x="3442.33" y="243.667" width="38" height="23"/>
+  <object id="284" name="Spring" type="SPRING" x="3455.33" y="160.667" width="38" height="23"/>
+  <object id="285" name="Platform" type="PLATFORM" x="4301.67" y="58.3327" width="50.333" height="49.6666"/>
+  <object id="286" name="Ground" type="GROUND" x="2780" y="417.364" width="40.083" height="14.7197"/>
+  <object id="301" name="Stair" type="STAIR" x="4332" y="647.484" width="15.8789" height="11.8182"/>
+ </objectgroup>
+ <objectgroup name="ActiveTracker" visible="0">
+  <object id="261" name="Active Tracker 1" type="ACTIVE TRACKER" x="2643" y="585.833" width="113.333" height="71">
+   <properties>
+    <property name="active_group" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="262" name="Active Tracker 2" type="ACTIVE TRACKER" x="2245" y="425.583" width="23.083" height="151.25">
+   <properties>
+    <property name="active_tracker_name" value="Active Tracker 1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="MainCharacter">
+  <object id="32" name="Aladdin" type="Aladdin" x="161.837" y="572.001" width="40" height="50"/>
+ </objectgroup>
+ <objectgroup name="NPCs">
+  <object id="33" name="Knife Juggler" type="Knife Juggler" x="1302" y="516.667" width="40" height="60">
+   <properties>
+    <property name="quad_index" value="000"/>
+   </properties>
+  </object>
+  <object id="34" name="Staff Guard" type="Staff Guard" x="693.333" y="573.333" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="-1642"/>
+    <property name="min_x" type="float" value="-1794"/>
+    <property name="quad_index" value="000"/>
+    <property name="start_x" type="float" value="-1762"/>
+   </properties>
+  </object>
+  <object id="36" name="Sword Guard" type="Sword Guard" x="958.667" y="572.667" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="-1203"/>
+    <property name="min_x" type="float" value="-1629"/>
+    <property name="quad_index" value="000"/>
+    <property name="start_x" type="float" value="-1419"/>
+   </properties>
+  </object>
+  <object id="111" name="Sword Guard" type="Sword Guard" x="1654.67" y="220" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="-693.8"/>
+    <property name="min_x" type="float" value="-695.8"/>
+    <property name="start_x" type="float" value="-694.8"/>
+   </properties>
+  </object>
+  <object id="113" name="Sword Guard" type="Sword Guard" x="3260.67" y="606" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="924.5"/>
+    <property name="min_x" type="float" value="654.5"/>
+    <property name="start_x" type="float" value="875.16"/>
+   </properties>
+  </object>
+  <object id="114" name="Sword Guard" type="Sword Guard" x="3748.67" y="605" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="1510.5"/>
+    <property name="min_x" type="float" value="1164"/>
+    <property name="start_x" type="float" value="1363.16"/>
+   </properties>
+  </object>
+  <object id="115" name="Sword Guard" type="Sword Guard" x="4243.67" y="605" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="1963"/>
+    <property name="min_x" type="float" value="1744"/>
+    <property name="start_x" type="float" value="1858.16"/>
+   </properties>
+  </object>
+  <object id="116" name="Pot Dropper" type="Pot Dropper" x="1786.33" y="473.333" width="16" height="26">
+   <properties>
+    <property name="max_x" type="float" value="-1642"/>
+    <property name="min_x" type="float" value="-1794"/>
+    <property name="start_x" type="float" value="-1762"/>
+   </properties>
+  </object>
+  <object id="117" name="Pot Dropper" type="Pot Dropper" x="1834.33" y="505.333" width="16" height="26">
+   <properties>
+    <property name="max_x" type="float" value="-1642"/>
+    <property name="min_x" type="float" value="-1794"/>
+    <property name="start_x" type="float" value="-1762"/>
+   </properties>
+  </object>
+  <object id="118" name="Pot Dropper" type="Pot Dropper" x="1834.33" y="329.333" width="16" height="26">
+   <properties>
+    <property name="max_x" type="float" value="-1642"/>
+    <property name="min_x" type="float" value="-1794"/>
+    <property name="start_x" type="float" value="-1762"/>
+   </properties>
+  </object>
+  <object id="119" name="Pot Dropper" type="Pot Dropper" x="1947.33" y="329.333" width="16" height="26">
+   <properties>
+    <property name="max_x" type="float" value="-1642"/>
+    <property name="min_x" type="float" value="-1794"/>
+    <property name="start_x" type="float" value="-1762"/>
+   </properties>
+  </object>
+  <object id="120" name="Pot Dropper" type="Pot Dropper" x="1739.33" y="153.333" width="16" height="26">
+   <properties>
+    <property name="max_x" type="float" value="-1642"/>
+    <property name="min_x" type="float" value="-1794"/>
+    <property name="start_x" type="float" value="-1762"/>
+   </properties>
+  </object>
+  <object id="121" name="Pot Dropper" type="Pot Dropper" x="1946" y="153.333" width="16" height="26">
+   <properties>
+    <property name="max_x" type="float" value="-1642"/>
+    <property name="min_x" type="float" value="-1794"/>
+    <property name="start_x" type="float" value="-1762"/>
+   </properties>
+  </object>
+  <object id="122" name="Pot Dropper" type="Pot Dropper" x="2105.33" y="154.666" width="16" height="26">
+   <properties>
+    <property name="max_x" type="float" value="-1642"/>
+    <property name="min_x" type="float" value="-1794"/>
+    <property name="start_x" type="float" value="-1762"/>
+   </properties>
+  </object>
+  <object id="220" name="Pot Dropper" type="Pot Dropper" x="2506.33" y="344.666" width="16" height="26">
+   <properties>
+    <property name="max_x" type="float" value="-1642"/>
+    <property name="min_x" type="float" value="-1794"/>
+    <property name="start_x" type="float" value="-1762"/>
+   </properties>
+  </object>
+  <object id="221" name="Pot Dropper" type="Pot Dropper" x="3306.33" y="360.666" width="16" height="26">
+   <properties>
+    <property name="max_x" type="float" value="-1642"/>
+    <property name="min_x" type="float" value="-1794"/>
+    <property name="start_x" type="float" value="-1762"/>
+   </properties>
+  </object>
+  <object id="222" name="Pot Dropper" type="Pot Dropper" x="3769.33" y="536.666" width="16" height="26">
+   <properties>
+    <property name="max_x" type="float" value="-1642"/>
+    <property name="min_x" type="float" value="-1794"/>
+    <property name="start_x" type="float" value="-1762"/>
+   </properties>
+  </object>
+  <object id="223" name="Pot Dropper" type="Pot Dropper" x="3946.33" y="535.666" width="16" height="26">
+   <properties>
+    <property name="max_x" type="float" value="-1642"/>
+    <property name="min_x" type="float" value="-1794"/>
+    <property name="start_x" type="float" value="-1762"/>
+   </properties>
+  </object>
+  <object id="224" name="Pot Dropper" type="Pot Dropper" x="4010.33" y="505.666" width="16" height="26">
+   <properties>
+    <property name="max_x" type="float" value="-1642"/>
+    <property name="min_x" type="float" value="-1794"/>
+    <property name="start_x" type="float" value="-1762"/>
+   </properties>
+  </object>
+  <object id="225" name="Knife Juggler" type="Knife Juggler" x="2511" y="458.667" width="40" height="60"/>
+  <object id="226" name="Knife Juggler" type="Knife Juggler" x="2553" y="98.667" width="40" height="60"/>
+  <object id="227" name="Knife Juggler" type="Knife Juggler" x="2972" y="99.667" width="40" height="60"/>
+  <object id="228" name="Knife Juggler" type="Knife Juggler" x="4348" y="402.667" width="40" height="60"/>
+  <object id="229" name="Sword Guard" type="Sword Guard" x="2970.67" y="235.667" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="759.5"/>
+    <property name="min_x" type="float" value="554.5"/>
+    <property name="start_x" type="float" value="585.16"/>
+   </properties>
+  </object>
+  <object id="230" name="Sword Guard" type="Sword Guard" x="3678.67" y="429.667" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="1393.5"/>
+    <property name="min_x" type="float" value="1202.5"/>
+    <property name="start_x" type="float" value="1298.16"/>
+   </properties>
+  </object>
+  <object id="231" name="Sword Guard" type="Sword Guard" x="4470.67" y="156.667" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="2086"/>
+    <property name="min_x" type="float" value="2084"/>
+    <property name="start_x" type="float" value="2085"/>
+   </properties>
+  </object>
+  <object id="232" name="Staff Guard" type="Staff Guard" x="2710.33" y="348.333" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="383.5"/>
+    <property name="min_x" type="float" value="300.5"/>
+    <property name="start_x" type="float" value="324"/>
+   </properties>
+  </object>
+  <object id="233" name="Apple Thief" type="Apple Thief" x="2842.33" y="364.333" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="642.5"/>
+    <property name="min_x" type="float" value="453.5"/>
+    <property name="start_x" type="float" value="456.8"/>
+   </properties>
+  </object>
+  <object id="269" name="Camel" type="Camel" x="1537.33" y="611.666" width="62" height="43">
+   <properties>
+    <property name="quad_index" value="00"/>
+   </properties>
+  </object>
+  <object id="290" name="Knife Guard" type="Knife Guard" x="1693.33" y="597.333" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="-450"/>
+    <property name="min_x" type="float" value="-854.5"/>
+    <property name="quad_index" value="000"/>
+    <property name="start_x" type="float" value="-685.5"/>
+   </properties>
+  </object>
+  <object id="292" name="Knife Guard" type="Knife Guard" x="1885.33" y="378.666" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="-431.5"/>
+    <property name="min_x" type="float" value="-592.5"/>
+    <property name="quad_index" value="000"/>
+    <property name="start_x" type="float" value="-500"/>
+   </properties>
+  </object>
+  <object id="293" name="Knife Guard" type="Knife Guard" x="2030.67" y="218.666" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="-193.5"/>
+    <property name="min_x" type="float" value="-417.5"/>
+    <property name="quad_index" value="000"/>
+    <property name="start_x" type="float" value="-354.8"/>
+   </properties>
+  </object>
+  <object id="294" name="Knife Guard" type="Knife Guard" x="2949.33" y="362.666" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="642.5"/>
+    <property name="min_x" type="float" value="445.5"/>
+    <property name="quad_index" value="000"/>
+    <property name="start_x" type="float" value="568.8"/>
+   </properties>
+  </object>
+  <object id="295" name="Knife Guard" type="Knife Guard" x="3153.33" y="426.666" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="767.84"/>
+    <property name="min_x" type="float" value="767.82"/>
+    <property name="quad_index" value="000"/>
+    <property name="start_x" type="float" value="767.83"/>
+   </properties>
+  </object>
+  <object id="296" name="Knife Guard" type="Knife Guard" x="3298.67" y="267" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="1104.5"/>
+    <property name="min_x" type="float" value="825.5"/>
+    <property name="quad_index" value="000"/>
+    <property name="start_x" type="float" value="913"/>
+   </properties>
+  </object>
+  <object id="297" name="Knife Guard" type="Knife Guard" x="3932.67" y="380.666" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="1547.2"/>
+    <property name="min_x" type="float" value="1455.5"/>
+    <property name="quad_index" value="000"/>
+    <property name="start_x" type="float" value="1547"/>
+   </properties>
+  </object>
+  <object id="299" name="Knife Guard" type="Knife Guard" x="4608" y="154.666" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="2223.5"/>
+    <property name="min_x" type="float" value="2221.5"/>
+    <property name="quad_index" value="000"/>
+    <property name="start_x" type="float" value="2222.5"/>
+   </properties>
+  </object>
+  <object id="300" name="Knife Guard" type="Knife Guard" x="4569.33" y="558.666" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="2371.5"/>
+    <property name="min_x" type="float" value="2099.5"/>
+    <property name="quad_index" value="000"/>
+    <property name="start_x" type="float" value="2183.8"/>
+   </properties>
+  </object>
+  <object id="302" name="Peddler" type="Peddler" x="3921.67" y="158.667" width="40" height="50"/>
+  <object id="303" name="Knife Guard" type="Knife Guard" x="2783.67" y="510" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="398.17"/>
+    <property name="min_x" type="float" value="398.15"/>
+    <property name="quad_index" value="000"/>
+    <property name="start_x" type="float" value="398.16"/>
+   </properties>
+  </object>
+  <object id="304" name="Knife Guard" type="Knife Guard" x="3478.67" y="590.666" width="40" height="50">
+   <properties>
+    <property name="max_x" type="float" value="1177"/>
+    <property name="min_x" type="float" value="1027"/>
+    <property name="quad_index" value="000"/>
+    <property name="start_x" type="float" value="1093"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="CollectableItems">
+  <object id="37" name="Apple" type="Collectable Apple" x="475.833" y="547.167" width="10" height="10">
+   <properties>
+    <property name="quad_index" value="000"/>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="123" name="Apple" type="Collectable Apple" x="509.333" y="527.167" width="10" height="10">
+   <properties>
+    <property name="quad_index" value="000"/>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="124" name="Apple" type="Collectable Apple" x="544.833" y="547.667" width="10" height="10">
+   <properties>
+    <property name="quad_index" value="000"/>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="125" name="Apple" type="Collectable Apple" x="911.833" y="546.167" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="126" name="Apple" type="Collectable Apple" x="876.333" y="525.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="127" name="Apple" type="Collectable Apple" x="842.833" y="545.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="128" name="Apple" type="Collectable Apple" x="1087.83" y="544.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="129" name="Apple" type="Collectable Apple" x="1052.33" y="524.167" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="130" name="Apple" type="Collectable Apple" x="1018.83" y="544.167" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="131" name="Apple" type="Collectable Apple" x="1644.33" y="558.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="132" name="Apple" type="Collectable Apple" x="1675.83" y="537.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="133" name="Apple" type="Collectable Apple" x="1709.83" y="558.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="134" name="Apple" type="Collectable Apple" x="1777.33" y="558.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="135" name="Apple" type="Collectable Apple" x="1741.83" y="538.167" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="136" name="Apple" type="Collectable Apple" x="1560.83" y="527.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="137" name="Apple" type="Collectable Apple" x="1546.33" y="493.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="138" name="Apple" type="Collectable Apple" x="1515.83" y="477.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="142" name="Apple" type="Collectable Apple" x="2005.83" y="545.167" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="143" name="Apple" type="Collectable Apple" x="2005.33" y="512.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="144" name="Apple" type="Collectable Apple" x="2032.33" y="490.167" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="145" name="Apple" type="Collectable Apple" x="2139.83" y="509.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="146" name="Apple" type="Collectable Apple" x="2108.83" y="489.167" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="147" name="Apple" type="Collectable Apple" x="2140.33" y="542.167" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="148" name="Apple" type="Collectable Apple" x="1761.83" y="366.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="149" name="Apple" type="Collectable Apple" x="1563.83" y="367.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="150" name="Apple" type="Collectable Apple" x="1484.83" y="271.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="151" name="Apple" type="Collectable Apple" x="1485.33" y="303.167" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="152" name="Apple" type="Collectable Apple" x="1485.83" y="241.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="153" name="Apple" type="Collectable Apple" x="1502.83" y="206.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="154" name="Apple" type="Collectable Apple" x="1839" y="195" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="155" name="Apple" type="Collectable Apple" x="1773.5" y="195" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="156" name="Apple" type="Collectable Apple" x="1805" y="174" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="157" name="Apple" type="Collectable Apple" x="2049" y="192.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="158" name="Apple" type="Collectable Apple" x="1983.5" y="192.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="159" name="Apple" type="Collectable Apple" x="2015" y="171.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="160" name="Apple" type="Collectable Apple" x="2285.67" y="186.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="161" name="Apple" type="Collectable Apple" x="2308.33" y="186.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="162" name="Apple" type="Collectable Apple" x="2344.33" y="215" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="163" name="Apple" type="Collectable Apple" x="2355" y="277.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="164" name="Apple" type="Collectable Apple" x="2355.67" y="321" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="165" name="Apple" type="Collectable Apple" x="2356.33" y="364.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="166" name="Apple" type="Collectable Apple" x="2356.33" y="390.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="167" name="Apple" type="Collectable Apple" x="2357" y="443" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="168" name="Apple" type="Collectable Apple" x="2430.33" y="491.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="169" name="Apple" type="Collectable Apple" x="2255" y="519" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="170" name="Apple" type="Collectable Apple" x="2271" y="505.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="171" name="Apple" type="Collectable Apple" x="2285" y="519.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="172" name="Apple" type="Collectable Apple" x="2412.33" y="571.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="173" name="Apple" type="Collectable Apple" x="2523" y="591" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="174" name="Apple" type="Collectable Apple" x="2644.33" y="206" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="175" name="Apple" type="Collectable Apple" x="2897.67" y="216.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="176" name="Apple" type="Collectable Apple" x="2878.33" y="199.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="177" name="Apple" type="Collectable Apple" x="2861.67" y="216" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="178" name="Apple" type="Collectable Apple" x="2928.33" y="336" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="179" name="Apple" type="Collectable Apple" x="2895" y="317.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="180" name="Apple" type="Collectable Apple" x="2863" y="334.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="181" name="Apple" type="Collectable Apple" x="2881.67" y="468.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="182" name="Apple" type="Collectable Apple" x="2881" y="525.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="183" name="Apple" type="Collectable Apple" x="2881" y="578" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="184" name="Apple" type="Collectable Apple" x="3171.17" y="580" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="185" name="Apple" type="Collectable Apple" x="3105.67" y="580" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="186" name="Apple" type="Collectable Apple" x="3137.17" y="559" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="187" name="Apple" type="Collectable Apple" x="3376.5" y="553.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="188" name="Apple" type="Collectable Apple" x="3410.5" y="574.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="189" name="Apple" type="Collectable Apple" x="3345" y="574.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="190" name="Apple" type="Collectable Apple" x="3533.83" y="551.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="191" name="Apple" type="Collectable Apple" x="3567.83" y="572.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="192" name="Apple" type="Collectable Apple" x="3502.33" y="572.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="193" name="Apple" type="Collectable Apple" x="3867.17" y="555" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="194" name="Apple" type="Collectable Apple" x="3901.17" y="576" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="195" name="Apple" type="Collectable Apple" x="3835.67" y="576" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="196" name="Apple" type="Collectable Apple" x="3389.17" y="376.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="197" name="Apple" type="Collectable Apple" x="3423.17" y="397.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="198" name="Apple" type="Collectable Apple" x="3357.67" y="397.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="199" name="Apple" type="Collectable Apple" x="3502.17" y="377" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="200" name="Apple" type="Collectable Apple" x="3536.17" y="398" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="201" name="Apple" type="Collectable Apple" x="3470.67" y="398" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="202" name="Apple" type="Collectable Apple" x="3837.5" y="27" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="203" name="Apple" type="Collectable Apple" x="3871.5" y="48" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="204" name="Apple" type="Collectable Apple" x="3806" y="48" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="205" name="Apple" type="Collectable Apple" x="3853.33" y="398" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="206" name="Apple" type="Collectable Apple" x="3901.33" y="371.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="207" name="Apple" type="Collectable Apple" x="3934.67" y="350" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="208" name="Apple" type="Collectable Apple" x="4322.83" y="34.6667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="209" name="Apple" type="Collectable Apple" x="4352.83" y="19.3333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="210" name="Apple" type="Collectable Apple" x="4321.5" y="4" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="211" name="Apple" type="Collectable Apple" x="4293.5" y="20" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="212" name="Apple" type="Collectable Apple" x="4459.5" y="350.667" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="213" name="Apple" type="Collectable Apple" x="4504.83" y="329.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="214" name="Apple" type="Collectable Apple" x="4556.17" y="349.333" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="215" name="Apple" type="Collectable Apple" x="4639.5" y="394" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="218" name="Apple" type="Collectable Apple" x="4203.5" y="412" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="219" name="Apple" type="Collectable Apple" x="4110.83" y="428" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="236" name="Health" type="Extra Health" x="2381" y="628" width="15" height="22">
+   <properties>
+    <property name="value" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="238" name="Health" type="Extra Health" x="3037" y="75" width="15" height="22">
+   <properties>
+    <property name="value" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="239" name="Health" type="Extra Health" x="3291" y="370" width="15" height="22">
+   <properties>
+    <property name="value" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="240" name="Genie" type="Genie Bonus" x="1621" y="370" width="40" height="50">
+   <properties>
+    <property name="value" type="int" value="250"/>
+   </properties>
+  </object>
+  <object id="241" name="Genie" type="Genie Bonus" x="2249" y="586" width="40" height="50">
+   <properties>
+    <property name="value" type="int" value="250"/>
+   </properties>
+  </object>
+  <object id="242" name="Genie" type="Genie Bonus" x="2531" y="56" width="40" height="50">
+   <properties>
+    <property name="value" type="int" value="250"/>
+   </properties>
+  </object>
+  <object id="243" name="Genie" type="Genie Bonus" x="3104" y="193" width="40" height="50">
+   <properties>
+    <property name="value" type="int" value="250"/>
+   </properties>
+  </object>
+  <object id="244" name="Genie" type="Genie Bonus" x="4141" y="352" width="40" height="50">
+   <properties>
+    <property name="value" type="int" value="250"/>
+   </properties>
+  </object>
+  <object id="245" name="Spend These" type="Spend These" x="2335" y="633" width="16" height="15">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="246" name="Spend These" type="Spend These" x="2652" y="624" width="16" height="15">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="247" name="Spend These" type="Spend These" x="2692" y="624" width="16" height="15">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="248" name="Spend These" type="Spend These" x="2637" y="235" width="16" height="15">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="249" name="Spend These" type="Spend These" x="2639" y="261" width="16" height="15">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="250" name="Spend These" type="Spend These" x="3038" y="106" width="16" height="15">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="251" name="Spend These" type="Spend These" x="3069" y="92" width="16" height="15">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="252" name="Spend These" type="Spend These" x="3004" y="90" width="16" height="15">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="253" name="Spend These" type="Spend These" x="2606" y="89" width="16" height="15">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="254" name="Checkpoint" type="Checkpoint" x="2696" y="482" width="19" height="32">
+   <properties>
+    <property name="value" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="256" name="Checkpoint" type="Checkpoint" x="3495" y="446" width="19" height="32">
+   <properties>
+    <property name="value" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="270" name="Aladdin Head" type="Aladdin Head" x="3902.5" y="33" width="21" height="23">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="272" name="Lamp" type="Lamp" x="1977.83" y="416.167" width="32" height="15"/>
+  <object id="273" name="Lamp" type="Lamp" x="2460.83" y="513.167" width="32" height="15"/>
+  <object id="274" name="Lamp" type="Lamp" x="3038.83" y="398.167" width="32" height="15"/>
+  <object id="275" name="Abu Head" type="Abu Head" x="3289.83" y="157.167" width="18" height="18"/>
+  <object id="289" name="Level Complete" type="Level Complete" x="4753.5" y="0.999967" width="10" height="207.333">
+   <properties>
+    <property name="value" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

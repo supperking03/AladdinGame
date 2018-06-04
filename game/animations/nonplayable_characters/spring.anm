@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Animation name="idle" imagePath="spring.png" interval="0" isLoop="false">
+    <sprite x="1" y="13" w="85" h="35" offsetX="0" offsetY="1" />
+  </Animation>
+  <Animation name="spring" imagePath="spring.png" interval="0.1" isLoop="false">
+    <sprite x="1" y="13" w="85" h="35" offsetX="0" offsetY="1" />
+    <sprite x="91" y="35" w="79" h="29" offsetX="-3" offsetY="-18" />
+    <sprite x="181" y="1" w="69" h="47" offsetX="-8" offsetY="7" />
+    <sprite x="271" y="35" w="79" h="29" offsetX="-3" offsetY="-18" />
+    <sprite x="361" y="1" w="69" h="47" offsetX="-8" offsetY="7" />
+    <sprite x="451" y="35" w="83" h="27" offsetX="-1" offsetY="-17" />
+    <sprite x="541" y="5" w="81" h="43" offsetX="-2" offsetY="5" />
+    <sprite x="631" y="21" w="87" h="29" offsetX="1" offsetY="-4" />
+    <sprite x="721" y="7" w="81" h="41" offsetX="-2" offsetY="4" />
+    <sprite x="811" y="9" w="83" h="39" offsetX="-1" offsetY="3" />
+  </Animation>
+</Animations>
